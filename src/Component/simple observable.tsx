@@ -1,17 +1,17 @@
-import React, {Fragment} from 'react';
+import React, {Component} from 'react';
 import {Delay} from "./simpleObservable/delay";
 import {Concat} from "./simpleObservable/concat";
 import {Timer} from './simpleObservable/timer';
 
-class SimpleObservable extends React.Component {
+class SimpleObservable extends Component {
 
     render() {
         return (
-            <Fragment>
+            <section className="card-columns">
                 <Timer />
                 <Concat />
                 <Delay />
-            </Fragment>
+            </section>
         )
     }
 }

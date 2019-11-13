@@ -1,3 +1,3 @@
 export default class State {
-    constructor(public timer: number) {}
+    constructor(public timer: number | 'Not beginning') {}
 }

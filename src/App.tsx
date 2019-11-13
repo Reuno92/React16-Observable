@@ -3,8 +3,8 @@ import SimpleObservable from "./Component/simple observable";
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1>Observable Test</h1>
+    <div className="container">
+      <h1>Observable example</h1>
       <SimpleObservable />
     </div>
   );
